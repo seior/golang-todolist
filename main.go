@@ -42,7 +42,7 @@ func main() {
 
 			fmt.Print("Author : ")
 			utils.Input.Scan()
-			todolist.Name = utils.Input.Text()
+			todolist.Author = utils.Input.Text()
 
 			todolistRepository.Create(todolist)
 		} else if input == "3" {
